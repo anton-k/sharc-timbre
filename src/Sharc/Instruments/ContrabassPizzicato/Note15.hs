@@ -1,0 +1,135 @@
+module Sharc.Instruments.ContrabassPizzicato.Note15 (note15) where
+
+import Sharc.Types
+
+note15 :: Note
+note15 = Note
+    (Pitch 82.407 28 "e2")
+    16
+    (Range
+        (NoteRange
+            (NoteRangeAmplitude 9641.61 117 7.0e-2)
+            (NoteRangeHarmonicFreq 1 82.4))
+        (NoteRange
+            (NoteRangeAmplitude 82.4 1 7752.0)
+            (NoteRangeHarmonicFreq 120 9888.84)))
+    [Harmonic 1 (-1.381) 7752.0
+    ,Harmonic 2 1.876 759.76
+    ,Harmonic 3 1.429 545.33
+    ,Harmonic 4 0.978 1447.73
+    ,Harmonic 5 1.923 131.37
+    ,Harmonic 6 0.55 408.18
+    ,Harmonic 7 (-0.777) 295.1
+    ,Harmonic 8 (-0.512) 207.13
+    ,Harmonic 9 (-0.576) 171.09
+    ,Harmonic 10 2.585 84.16
+    ,Harmonic 11 1.946 54.71
+    ,Harmonic 12 1.814 47.47
+    ,Harmonic 13 (-0.431) 58.73
+    ,Harmonic 14 2.451 77.88
+    ,Harmonic 15 (-3.102) 37.73
+    ,Harmonic 16 1.285 42.53
+    ,Harmonic 17 2.048 21.06
+    ,Harmonic 18 (-1.453) 13.39
+    ,Harmonic 19 (-1.883) 12.85
+    ,Harmonic 20 (-1.13) 8.67
+    ,Harmonic 21 (-1.228) 2.48
+    ,Harmonic 22 1.123 14.31
+    ,Harmonic 23 2.462 3.1
+    ,Harmonic 24 0.276 4.75
+    ,Harmonic 25 (-1.774) 4.11
+    ,Harmonic 26 1.778 2.21
+    ,Harmonic 27 0.541 0.19
+    ,Harmonic 28 2.094 4.05
+    ,Harmonic 29 1.596 4.16
+    ,Harmonic 30 (-2.207) 2.98
+    ,Harmonic 31 0.344 3.05
+    ,Harmonic 32 1.829 1.59
+    ,Harmonic 33 (-1.355) 3.7
+    ,Harmonic 34 (-2.413) 2.34
+    ,Harmonic 35 (-2.83) 3.12
+    ,Harmonic 36 2.496 1.65
+    ,Harmonic 37 (-1.307) 0.43
+    ,Harmonic 38 (-1.507) 0.84
+    ,Harmonic 39 (-2.874) 1.03
+    ,Harmonic 40 (-0.846) 2.96
+    ,Harmonic 41 (-3.132) 2.72
+    ,Harmonic 42 2.621 1.07
+    ,Harmonic 43 0.276 1.76
+    ,Harmonic 44 (-2.91) 0.74
+    ,Harmonic 45 (-0.662) 2.91
+    ,Harmonic 46 (-2.6e-2) 1.64
+    ,Harmonic 47 1.427 1.12
+    ,Harmonic 48 (-2.565) 1.01
+    ,Harmonic 49 3.121 1.08
+    ,Harmonic 50 0.504 1.33
+    ,Harmonic 51 1.231 0.77
+    ,Harmonic 52 1.805 1.38
+    ,Harmonic 53 (-2.476) 0.18
+    ,Harmonic 54 (-2.603) 0.5
+    ,Harmonic 55 0.678 0.31
+    ,Harmonic 56 1.832 1.93
+    ,Harmonic 57 1.679 1.74
+    ,Harmonic 58 1.191 1.06
+    ,Harmonic 59 1.074 2.53
+    ,Harmonic 60 6.3e-2 0.89
+    ,Harmonic 61 1.628 2.0
+    ,Harmonic 62 1.768 1.98
+    ,Harmonic 63 (-1.384) 1.34
+    ,Harmonic 64 2.833 0.64
+    ,Harmonic 65 0.115 0.7
+    ,Harmonic 66 (-0.11) 2.43
+    ,Harmonic 67 1.932 0.48
+    ,Harmonic 68 (-2.308) 0.66
+    ,Harmonic 69 (-0.577) 0.57
+    ,Harmonic 70 3.4e-2 1.03
+    ,Harmonic 71 (-0.227) 1.02
+    ,Harmonic 72 (-1.827) 0.28
+    ,Harmonic 73 (-0.962) 1.28
+    ,Harmonic 74 (-0.745) 0.68
+    ,Harmonic 75 2.904 0.87
+    ,Harmonic 76 (-3.042) 0.58
+    ,Harmonic 77 2.272 0.6
+    ,Harmonic 78 0.786 0.34
+    ,Harmonic 79 2.039 1.13
+    ,Harmonic 80 0.287 0.87
+    ,Harmonic 81 0.284 0.14
+    ,Harmonic 82 1.828 0.69
+    ,Harmonic 83 0.65 0.66
+    ,Harmonic 84 0.655 0.47
+    ,Harmonic 85 (-1.888) 0.63
+    ,Harmonic 86 (-2.855) 0.28
+    ,Harmonic 87 1.187 0.39
+    ,Harmonic 88 0.318 0.38
+    ,Harmonic 89 (-1.084) 0.57
+    ,Harmonic 90 1.99 0.73
+    ,Harmonic 91 (-2.079) 0.71
+    ,Harmonic 92 (-0.311) 0.82
+    ,Harmonic 93 (-0.894) 0.78
+    ,Harmonic 94 (-0.219) 0.78
+    ,Harmonic 95 0.233 0.52
+    ,Harmonic 96 0.609 0.78
+    ,Harmonic 97 (-3.116) 0.13
+    ,Harmonic 98 2.427 0.44
+    ,Harmonic 99 (-1.42) 0.44
+    ,Harmonic 100 (-0.562) 0.25
+    ,Harmonic 101 0.483 0.5
+    ,Harmonic 102 1.948 0.34
+    ,Harmonic 103 2.672 0.34
+    ,Harmonic 104 1.914 0.18
+    ,Harmonic 105 (-2.87) 0.15
+    ,Harmonic 106 (-1.054) 0.19
+    ,Harmonic 107 0.126 0.62
+    ,Harmonic 108 (-2.954) 9.0e-2
+    ,Harmonic 109 (-2.274) 0.34
+    ,Harmonic 110 (-1.393) 0.26
+    ,Harmonic 111 (-1.89) 0.89
+    ,Harmonic 112 (-1.533) 0.41
+    ,Harmonic 113 0.555 0.41
+    ,Harmonic 114 0.282 0.34
+    ,Harmonic 115 (-1.033) 0.33
+    ,Harmonic 116 (-0.46) 0.34
+    ,Harmonic 117 0.958 7.0e-2
+    ,Harmonic 118 (-1.548) 0.48
+    ,Harmonic 119 3.122 0.32
+    ,Harmonic 120 0.796 0.39]

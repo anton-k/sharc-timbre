@@ -1,0 +1,123 @@
+module Sharc.Instruments.ContrabassClarinet.Note12 (note12) where
+
+import Sharc.Types
+
+note12 :: Note
+note12 = Note
+    (Pitch 92.499 30 "f#2")
+    13
+    (Range
+        (NoteRange
+            (NoteRangeAmplitude 6012.43 65 3.65)
+            (NoteRangeHarmonicFreq 1 92.49))
+        (NoteRange
+            (NoteRangeAmplitude 92.49 1 3670.0)
+            (NoteRangeHarmonicFreq 108 9989.89)))
+    [Harmonic 1 0.754 3670.0
+    ,Harmonic 2 2.009 131.55
+    ,Harmonic 3 1.538 1173.5
+    ,Harmonic 4 (-0.75) 22.12
+    ,Harmonic 5 0.698 1060.79
+    ,Harmonic 6 (-2.064) 288.42
+    ,Harmonic 7 2.19 3544.97
+    ,Harmonic 8 (-0.234) 829.46
+    ,Harmonic 9 2.107 2469.48
+    ,Harmonic 10 1.248 420.1
+    ,Harmonic 11 (-2.238) 654.41
+    ,Harmonic 12 0.159 218.64
+    ,Harmonic 13 (-2.394) 26.78
+    ,Harmonic 14 (-0.178) 125.05
+    ,Harmonic 15 1.562 959.95
+    ,Harmonic 16 (-2.274) 213.91
+    ,Harmonic 17 1.349 576.58
+    ,Harmonic 18 2.612 194.51
+    ,Harmonic 19 (-2.107) 997.19
+    ,Harmonic 20 1.108 159.96
+    ,Harmonic 21 (-1.014) 771.06
+    ,Harmonic 22 1.057 407.08
+    ,Harmonic 23 2.117 1010.39
+    ,Harmonic 24 2.993 104.13
+    ,Harmonic 25 2.961 146.61
+    ,Harmonic 26 1.637 169.46
+    ,Harmonic 27 (-1.382) 206.1
+    ,Harmonic 28 (-1.699) 232.25
+    ,Harmonic 29 3.116 13.95
+    ,Harmonic 30 (-1.969) 337.07
+    ,Harmonic 31 (-0.378) 169.35
+    ,Harmonic 32 1.834 70.38
+    ,Harmonic 33 2.899 50.21
+    ,Harmonic 34 (-1.636) 16.73
+    ,Harmonic 35 (-0.659) 88.95
+    ,Harmonic 36 (-1.958) 20.15
+    ,Harmonic 37 0.246 68.31
+    ,Harmonic 38 0.807 56.08
+    ,Harmonic 39 (-3.09) 16.8
+    ,Harmonic 40 2.949 34.37
+    ,Harmonic 41 (-2.531) 44.35
+    ,Harmonic 42 (-0.232) 12.64
+    ,Harmonic 43 0.271 28.81
+    ,Harmonic 44 1.921 25.99
+    ,Harmonic 45 0.571 48.76
+    ,Harmonic 46 1.698 28.15
+    ,Harmonic 47 (-1.515) 15.45
+    ,Harmonic 48 (-1.101) 27.36
+    ,Harmonic 49 3.084 16.48
+    ,Harmonic 50 (-3.014) 33.41
+    ,Harmonic 51 1.871 11.34
+    ,Harmonic 52 2.189 22.46
+    ,Harmonic 53 0.551 15.32
+    ,Harmonic 54 0.133 47.36
+    ,Harmonic 55 (-1.572) 23.15
+    ,Harmonic 56 (-0.747) 12.94
+    ,Harmonic 57 (-1.511) 7.41
+    ,Harmonic 58 (-2.98) 8.59
+    ,Harmonic 59 (-2.438) 11.22
+    ,Harmonic 60 (-3.093) 4.75
+    ,Harmonic 61 1.857 12.59
+    ,Harmonic 62 0.237 6.02
+    ,Harmonic 63 1.753 20.27
+    ,Harmonic 64 0.58 15.77
+    ,Harmonic 65 (-1.34) 3.65
+    ,Harmonic 66 (-8.5e-2) 12.13
+    ,Harmonic 67 (-0.751) 8.38
+    ,Harmonic 68 (-1.213) 11.58
+    ,Harmonic 69 (-1.815) 9.23
+    ,Harmonic 70 (-2.726) 8.46
+    ,Harmonic 71 (-2.461) 9.15
+    ,Harmonic 72 2.661 14.85
+    ,Harmonic 73 2.308 12.74
+    ,Harmonic 74 1.651 15.16
+    ,Harmonic 75 1.028 15.12
+    ,Harmonic 76 0.267 12.97
+    ,Harmonic 77 (-0.452) 9.25
+    ,Harmonic 78 (-0.728) 18.97
+    ,Harmonic 79 (-1.376) 18.54
+    ,Harmonic 80 (-1.703) 24.29
+    ,Harmonic 81 (-2.713) 27.29
+    ,Harmonic 82 3.061 10.98
+    ,Harmonic 83 2.147 21.99
+    ,Harmonic 84 0.985 26.42
+    ,Harmonic 85 1.31 20.78
+    ,Harmonic 86 0.393 21.63
+    ,Harmonic 87 (-1.348) 14.73
+    ,Harmonic 88 (-0.832) 13.38
+    ,Harmonic 89 (-1.436) 12.94
+    ,Harmonic 90 (-1.961) 17.32
+    ,Harmonic 91 (-2.905) 24.93
+    ,Harmonic 92 2.552 15.67
+    ,Harmonic 93 1.31 9.99
+    ,Harmonic 94 1.786 8.6
+    ,Harmonic 95 0.881 10.37
+    ,Harmonic 96 (-5.8e-2) 10.25
+    ,Harmonic 97 4.2e-2 7.79
+    ,Harmonic 98 (-0.841) 9.81
+    ,Harmonic 99 (-1.62) 5.28
+    ,Harmonic 100 (-1.125) 7.05
+    ,Harmonic 101 (-1.851) 10.65
+    ,Harmonic 102 (-2.884) 10.4
+    ,Harmonic 103 (-3.076) 12.25
+    ,Harmonic 104 2.317 11.03
+    ,Harmonic 105 1.32 11.3
+    ,Harmonic 106 1.642 7.23
+    ,Harmonic 107 0.452 13.79
+    ,Harmonic 108 0.423 8.45]
