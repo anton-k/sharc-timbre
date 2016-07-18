@@ -1,5 +1,5 @@
 Name:          sharc-timbre
-Version:       0.1
+Version:       0.2
 Cabal-Version: >= 1.6
 License:       BSD3
 License-file:  LICENSE
@@ -80,4 +80,3 @@ Library
         Sharc.Instruments.TrumpetBach
         Sharc.Instruments.AltoTrombone
         Sharc.Instruments.AltoFlute
-        
