@@ -1,5 +1,7 @@
 module Pretty where
 
+import Prelude hiding((<$>))
+
 import Data.Char(toUpper)
 
 import Text.PrettyPrint.Leijen hiding (int, double)
@@ -37,8 +39,8 @@ pretty :: [(String, Instr)] -> [(String, String)]
 pretty as = fmap (\(a, b) -> (renderDoc a, renderDoc b)) $ (ppMainModuleName, ppMainModule as) : (uncurry ppInstrModules =<< as)
     
 ppInstrModules :: String -> Instr -> [(Doc, Doc)]
-ppInstrModules name a = (ppInstrModuleName name, ppInstrModule name a) :
-    zipWith (\noteId note -> (ppNoteModuleName name noteId, ppNoteModule name noteId note)) [0 .. ] notes
+ppInstrModules name a = [(ppInstrModuleName name, ppInstrModule name a)] -- :
+    -- zipWith (\noteId note -> (ppNoteModuleName name noteId, ppNoteModule name noteId note)) [0 .. ] notes
     where notes = instrNotes a
 
 ppMainModule :: [(String, Instr)] -> Doc
@@ -99,9 +101,13 @@ ppInstrModule :: String -> Instr -> Doc
 ppInstrModule name a = vcat $ punctuate line $
     [ ppInstrHead name    
     , importTypes
-    , ppInstrImports name a
+    -- , ppInstrImports name a
     , ppInstrDecl name a
+    , ppInstrNotes a
     ]
+
+ppInstrNotes :: Instr -> Doc
+ppInstrNotes a = vcat $ punctuate line $ zipWith ppNoteDecl [0 ..] (instrNotes a)
 
 ppInstrHead :: String -> Doc
 ppInstrHead name = ppModuleHead (ppInstrModuleName name) [ppInstrName name]    

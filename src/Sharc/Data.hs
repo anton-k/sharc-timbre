@@ -87,7 +87,6 @@ import Sharc.Instruments.TrumpetBach
 import Sharc.Instruments.AltoTrombone
 import Sharc.Instruments.AltoFlute
 
--- | The list of all instruments.
 sharc :: Sharc
 sharc = [violin
         ,violinPizzicato
